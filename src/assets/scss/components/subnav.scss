@@ -1,0 +1,54 @@
+.subnav {
+  display: flex;
+  background-color: #106A9F;
+  padding: 15px 30px;
+  // @include mq('phone') {
+  //   background-color: red !important;
+  // }
+  // @include mq('phone-wide') {
+  //   background-color: violet !important;
+  // }
+  // @include mq('phablet') {
+  //   background-color: indigo !important;
+  // }
+  // @include mq('tablet-small') {
+  //   background-color: blue !important;
+  // }
+  // @include mq('tablet') {
+  //   background-color: green !important;
+  // }
+  // @include mq('tablet-wide') {
+  //   background-color: greenyellow !important;
+  // }
+  // @include mq('desktop') {
+  //   background-color: yellowgreen !important;
+  // }
+  // @include mq('desktop-wide') {
+  //   background-color: yellow !important;
+  // }
+  // @include mq('desktop-4k') {
+  //   background-color:orange !important;
+  // }
+  // @include mq('desktop-4k-wide') {
+  //   background-color: #106A9F !important;
+  // }
+  ul {
+    min-width: 1380px;
+    margin: auto;
+  }
+  .btn {
+      font-size: 12px;
+      background-color: #106A9F !important;
+      border: 1px solid #ffffff78;
+      letter-spacing: 0.05rem;
+      padding: 7px 15px;
+      border-radius: 20px;
+      color: $white;
+      margin-right: 15px;
+      .fal {
+        margin-left: 10px;
+      }
+  }
+}
+
+
